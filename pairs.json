@@ -1,0 +1,211 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day",
+        "bonjour",
+        "welcome",
+        "hola",
+        "greetings"
+      ],
+      "responses": [
+        "Hi! My name is cool Moody,and you can call me Moody. How are you feeling right now?",
+      
+        "Hello :-),how do you do?"
+         ]
+    },
+    {
+        "tag":"name",
+        "patterns":["what you re name?"],
+        "responses":[
+            "My name is cool Moody,and you can call me Moody :)\n"
+            ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+    {
+      "tag": "funny",
+      "patterns": [
+        "Tell me a joke!",
+        "Tell me something funny!",
+        "Do you know a joke?"
+      ],
+      "responses": [
+        "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
+        "What did the buffalo say when his son left for college? Bison."
+      ]
+    },
+    {
+      "tag": "positive",
+      "patterns": [
+          "good",
+          "ok",
+          "okay",
+          "amuse",
+          "funloving",
+          "silly",
+          "awe",
+          "wonder",
+          "amazement",
+          "amazed",
+          "amazing",
+          "content",
+          "serene",
+          "peaceful",
+          "glad",
+          "joy",
+          "grateful",
+          "appreciative",
+          "thankful",
+          "hopeful",
+          "encouraged",
+          "optimistic",
+          "inspired",
+          "uplifted",
+          "elevated",
+          "peaceful",
+          "interested",
+          "confident",
+          "alert",
+          "curious",
+          "love",
+          "loved",
+          "trust",
+          "great",
+          "inspired",
+          "energized",
+          "wonderful",
+          "awesome"
+      ],
+      "responses":["I'm glad you felt that way!, if you want some tips to help you to progress this feeling tap '+'"]
+    },
+	 {
+      "tag": "negative",
+      "patterns": [
+          "bad",
+		  "not okay",
+		  "angry",
+		  "irritated", 
+		  "annoyed", 
+		  "ashamed", 
+		  "humuliated", 
+		  "disgraced", 
+		  "scared", 
+		  "fearful", 
+		  "afraid", 
+		  "disgust", 
+		  "distaste", 
+		  "revulsed", 
+		  "repentant", 
+		  "guilty",
+		  "blameworthy",
+		  " sad", 
+		  "downhearted", 
+		  "upset",
+		  "down", 
+		  "devastated", 
+		  "stressed", 
+		  "unhapapy", 
+		  "contemptuous",
+		  "scornful", 
+		  "disdainful", 
+		  "suicidal",
+		  "depressed", 
+		  "hopeless",
+		  "frustrated", 
+		  "overwhelmed",
+		  "tired"
+      ],
+      "responses":["I'm sorry to hear that,you can take a self-report assessment by typing menu",
+	                "Everyone sometimes feels a little down.Please be free to take a self-report assessment by typing menu "
+	  ]
+    },
+    {
+      "tag": "menu",
+      "patterns": ["menu"],
+      "responses": 
+           [ " Below are statements with which you may agree or disagree.What you should do is that you are going to evaluate each of those items using the scale bellow,then you going to add all your answers.\n\n No. \t Item \n 1: \t I was bothered by things that usually don’t bother me.\n 2: \t I did not feel like eating I had a poor appetite.\n 3: \t I felt that I could not shake off the blues even with help from my family or friends.\n 4: \t I had trouble keeping my mind on what I was doing.\n 5: \t I felt depressed.\n 6: \t I felt like everything I did was an effort.\n 7: \t I thought that my life until now had been a failure.\n 8: \t I felt afraid.\n 9: \t I could not sleep well\n 10: \t I was happy.\n 11: \t I talked less than usual.\n 12: \t I felt lonely.\n 13: \t People were unfriendly.\n 14: \t I enjoyed life.\n 15: \t I had crying spells.\n 16: \t I felt that people disliked me.\n 17: \t I couldn’t get going.\n 18: \t I felt that I was just as good as other people.\n 19: \t I felt hopeful about the future.\n 20: \t I felt sad.\n\n\t\t Use the following scale to indicate your response.\n\n No. \t  \n 0:\t Rarely or None of the Time\n 1: \t Some or Little of the Time\n 2: \t Moderately or Much of the time\n 3: \t Most or Almost All the Time\n\n SO what is your result?? how much you get? "
+		]		   
+    },
+	{
+      "tag": "results1",
+      "patterns": ["0", "1", "2","3","4","5","6","7","8","9","10","11","12","13","14","15","16"],
+      "responses": [
+        "it seems that you are just stressed and you feel anxiens ,It s happend ,if you want some tips that can help you to relieve stress type -  ",
+        "From your score ,it seems that you are stressed  which is from a way not bad because at lesset you re not deppressed.\n However you need to relieve your stress so please type - to get some tips that can help you "
+        
+      ]
+    },
+	
+	{
+      "tag": "results2",
+      "patterns": ["17","18","19","20","21","22","23","24","25","26","27","28","29","30","31","32","33","34","35","36","37","38","39","40"],
+      "responses": [
+        "your scores above 16.So i recommend you to see a psychologist or therapist,a psychologist will help you and you will feel ok sooner "
+       
+      ]
+    },
+	{
+      "tag": "tips-",
+      "patterns": ["-"],
+      "responses": [" 1:\t Take a yoga class \n 2: \t Start Exercising (or Exercise More).\n 3: \t Eat Healthy and Nutritious Foods.\n 4: \t Get Enough Sleep.\n 5: \t Light a candle:Using essential oils or burning a scented candle may help reduce your feelings of stress and anxiety.\n 6: \t Reduce your caffeine intake.\n  7: \t Write it down:One way to handle stress is to write things down.\n 8: \t Prioritize and Organize\n 9: \t Kick Your Bad Habits.\n 10: \t  Listen to soothing music:Some types of classical, Celtic, Native American and Indian music can be particularly soothing,but simply listening to the music you enjoy is effective too.\n 11: Form Positive Relationships.\n if you practice a few of those tips just be sure that you are going to live your life with 0 stress :) "
+	  ]
+						 
+    },
+	
+    {
+      "tag": "tips+",
+      "patterns": ["+"],
+      "responses": ["Keep in mind this 5 ways that will increase your satisfaction:\n A-Friends\n B-Set goals\n C-Live life to its fullest \n D-Money Isn't The Answer\n E-Keep Growing\n \t I really think that fifth one is key. If you can't learn, you can't improve.\n \t So choose the topic that you want to learn more about it by typing the corresponding letter . "]
+    },
+    {
+      "tag": "tipsE",
+      "patterns": ["E"],
+      "responses": ["Have you seen changes in what you believe over the past few months? That's a good thing.", "Keeping an open mind pays huge dividends as the years go by.", "But don't change everything — maintaining strong core values is important."]
+    },
+    {
+      "tag": "tipsC",
+      "patterns": ["c"],
+      "responses": ["Knowing your family tree gets you a bump in satisfaction as well.", "The Secrets of Happy Families: Improve Your Mornings, Rethink Family Dinner, Fight Smarter, Go Out and Play, and Much More", "People who wrote about the history of their lives were 11 percent more likely to feel happy with their lives and 17 percent more likely to feel optimistic about the future."]
+    },
+    {
+      "tag": "tipsB",
+      "patterns": ["b"],
+      "responses": ["People with goals are nearly 20% more satisfied with their lives.", "A consistent amount of minor success produces much more satisfaction than occasionally bagging an elephant.", "Not seeing the success you'd like? Don't give up. Having grit was associated with more life satisfaction."]
+    },
+    {
+      "tag": "tipsD",
+      "patterns": ["D"],
+      "responses": ["The more materialistic people are, the less satisfied they are with their lives.", "Spending more money on gifts made holidays less enjoyable.", "Having meaning in your life increases life satisfaction twice as much as wealth."]
+    },
+    {
+      "tag": "tipsA",
+      "patterns": ["A"],
+      "responses": ["it's not all about what you get from friends; giving is extraordinarily powerful too.", "positive feelings about neighbors have been found to be associated with a 16 percent greater life satisfaction and a 25 percent lower likelihood of experiencing feelings of loneliness.", "Having more close friendships was associated with a 19 percent greater life satisfaction and a 23 percent greater sense of optimism."]
+    },
+    {
+      "tag": "moody",
+      "patterns": ["moody", "cool-moody", "cool moody", "moody cool"],
+      "responses": ["Moody is an interactive chatbot you can learn about the different psychological scales as SATISFACTION ,DEPRESS or STRESS .\n\t type 'menu' to view the scale I have.", "That's me! Your personal Moody chat assistant."]
+    }
+    
+  ]
+}
